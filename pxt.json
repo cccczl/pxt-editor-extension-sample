@@ -1,21 +1,16 @@
 {
-    "name": "editor-extension-sample",
+    "name": "paj7620Gesture",
     "version": "0.0.1",
-    "description": "A sample editor extension for MakeCode",
+    "description": "mi:node IoT Starter Kit - A micro:bit accessories Kit with 10 sensor modules for IoT node appl",
     "license": "MIT",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "radio": "*",
+        "microphone": "*"
     },
     "files": [
+        "main.ts",
         "README.md"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
-    "public": true,
-    "extension": {
-        "namespace": "music",
-        "label": "Sample Editor",
-        "localUrl": "http://127.0.0.1:3000/index.html"
-    }
+    "public": true
 }
